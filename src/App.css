@@ -43,6 +43,7 @@ h1 {
   color: hsl(233, 26%, 24%);
   font-weight: 400;
   margin: 0.5rem 0;
+  font-size: 18px;
 }
 .article-title:hover {
   color: hsl(136, 65%, 51%);

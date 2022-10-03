@@ -16,7 +16,7 @@ const Article = () => {
       <h1>Latest Articles</h1>
       <Grid container spacing={3}>
         <Grid item xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={0}>
+          <Card sx={{ maxWidth: 250 }} elevation={0}>
             <CardMedia
               component="img"
               alt="green iguana"
@@ -37,7 +37,7 @@ const Article = () => {
           </Card>
         </Grid>
         <Grid item xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={0}>
+          <Card sx={{ maxWidth: 250 }} elevation={0}>
             <CardMedia
               component="img"
               alt="green iguana"
@@ -58,7 +58,7 @@ const Article = () => {
           </Card>
         </Grid>
         <Grid item xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={0}>
+          <Card sx={{ maxWidth: 250 }} elevation={0}>
             <CardMedia
               component="img"
               alt="green iguana"
@@ -78,7 +78,7 @@ const Article = () => {
           </Card>
         </Grid>
         <Grid item xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={0}>
+          <Card sx={{ maxWidth: 250 }} elevation={0}>
             <CardMedia
               component="img"
               alt="green iguana"
