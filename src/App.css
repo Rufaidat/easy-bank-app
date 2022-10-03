@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+}
+*:hover {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#logo {
+  width: 10rem;
+  height: 1.3rem;
+  margin-top: 1.2rem;
+}
+.header {
+  margin: 0;
+}
+.App {
+  font-family: "Public Sans", sans-serif;
+  color: hsl(233, 8%, 62%);
+}
+p {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+h3 {
+  color: hsl(233, 26%, 24%);
+  font-size: 1.5rem;
+}
+h1 {
+  color: hsl(233, 26%, 24%);
+  margin: 2rem 0;
+  font-weight: lighter;
+}
+
+.article-author {
+  color: hsl(233, 8%, 62%);
+  font-size: 0.7rem;
+}
+.article-title {
+  color: hsl(233, 26%, 24%);
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+.article-title:hover {
+  color: hsl(136, 65%, 51%);
+}
+.article-content {
+  font-size: 15px;
+  color: hsl(233, 8%, 62%);
+  line-height: 1.2rem;
+}
+button {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: 0;
+  color: hsl(0, 0%, 100%);
+  padding: 0.8rem;
+  border-radius: 2rem;
+  font-size: 16px;
+  outline: 0;
+  width: 10rem;
+}
+
+.link {
+  color: hsl(233, 8%, 62%);
+  text-decoration: none;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.link::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+
+  /* transition: 0.5s; */
+}
+.link:hover::after {
+  width: 100%;
+}
